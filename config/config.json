@@ -13,28 +13,28 @@
     {
       "model_name": "groq-llama",
       "model": "groq/llama-3.3-70b-versatile",
-      "api_key": "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",
+      "api_key": "GORQ_KEY",
       "api_base": "https://api.groq.com/openai/v1"
     },
     {
       "model_name": "gemini-flash",
       "model": "google/gemini-1.5-flash",
-      "api_key": "AIzaSyC1lNJDWdG0uKGc9uro8i2SK3CC0jlr1ow",
+      "api_key": "GEMINI_KEY",
       "api_base": "https://generativelanguage.googleapis.com/v1beta/openai"
     },
     {
       "model_name": "openrouter-chat",
       "model": "openrouter/google/gemini-2.0-flash-001",
-      "api_key": "v1-58f8b3563e0a365ab4676ce9d8612236e75e1c87fcd7d807f7be208f89aed870",
+      "api_key": "OPENROUTER_KEY",
       "api_base": "https://openrouter.ai/api/v1"
     }
   ],
   "channels": {
     "telegram": {
       "enabled": true,
-      "token": "8768181210:AAE6OoEgAyEyNxlN0XpyRXfpmAq-iZGGAso",
+      "token": "BOT_TOKEN",
       "allow_from": [
-        "5909769521"
+        "ID"
       ]
     },
     "whatsapp": {
